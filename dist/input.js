@@ -5,7 +5,7 @@ export class Input {
         this.classInput = classInput;
     }
     render() {
-        const input = document.createElement('input');
+        const input = document.createElement("input");
         input.type = this.type;
         input.classList.add(this.classInput);
         input.placeholder = this.placeholder;

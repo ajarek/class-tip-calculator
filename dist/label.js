@@ -4,7 +4,7 @@ export class Label {
         this.classLabel = classLabel;
     }
     render() {
-        const label = document.createElement('label');
+        const label = document.createElement("label");
         label.classList.add(this.classLabel);
         label.innerHTML = this.text;
         return label;

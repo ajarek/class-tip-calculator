@@ -5,9 +5,9 @@ export class Button {
         this.type = type;
     }
     render() {
-        const button = document.createElement('button');
+        const button = document.createElement("button");
         button.classList.add(this.classButton);
-        button.setAttribute('type', this.type);
+        button.setAttribute("type", this.type);
         button.innerHTML = this.text;
         return button;
     }

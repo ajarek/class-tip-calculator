@@ -9,8 +9,6 @@
     -dark: #212529;
     --dark-blue:#336699;
     --white:#f5f5f5;
-
-
 }
 body{
     font-family:'Roboto', sans-serif;
@@ -100,14 +98,12 @@ input::placeholder{
 @media screen and (max-width: 600px){
     .container{
         width: 100vw;
-        height: 100vh;
-        
+        height: 100vh;  
     }
     .title{
         border-radius: 0px;
     }
     .form{
         height: 100%;
-    }
-    
+    }  
 }
