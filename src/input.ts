@@ -9,9 +9,9 @@ export class Input{
     }
     render(){
         const input = document.createElement('input');
-        input.type = this.type;
-        input.placeholder = this.placeholder;
+         input.type = this.type;
         input.classList.add(this.classInput);
+        input.placeholder = this.placeholder;
         return input;
     }
 }

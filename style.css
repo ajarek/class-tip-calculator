@@ -22,7 +22,7 @@ body{
     align-items: center;
 }
 .container{
-    width: 730px;
+    width: 600px;
     height: 488px;
     background-color: var(--white);
     display: flex;
@@ -49,7 +49,6 @@ body{
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 1rem;
-    border: solid;
 }
 .input,.select{
     width: 100%;
@@ -72,4 +71,43 @@ body{
     outline: none;
     cursor: pointer;
     box-shadow:2px 2px 3px rgba(0,0,0,0.5);
+}
+.result{
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+input{
+    position: relative;
+}
+
+input::placeholder{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    height: 48px;
+    width: 48px;
+    background-color: var(--dark-blue);
+    text-align: center;
+    line-height: 48px;
+    color: var(--white);
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .title{
+        border-radius: 0px;
+    }
+    .form{
+        height: 100%;
+    }
+    
 }

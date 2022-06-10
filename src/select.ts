@@ -13,6 +13,7 @@ export class Select{
         select.classList.add(this.classSelect);
         const option = document.createElement('option');
         option.innerHTML = 'Choose...';
+        option.value = '';
         const option0 = document.createElement('option');
         option0.value = '0.20';
         option0.innerText = 'Great - 20%'
